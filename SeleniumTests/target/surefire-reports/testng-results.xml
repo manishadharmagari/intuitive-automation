@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="3" passed="3">
+  <reporter-output>
+  </reporter-output>
+  <suite name="SeBrowsersSuite" duration-ms="36365" started-at="2019-08-06T21:14:19Z" finished-at="2019-08-06T21:14:55Z">
+    <groups>
+      <group name="se-browsers-ff">
+        <method signature="SeleniumBrowsersTest.testOpenFirefoxBrowserUsingJenkinsURL_assertURLIsJenkins()[pri:0, instance:com.selenium.common.tests.SeleniumBrowsersTest@7b49cea0]" name="testOpenFirefoxBrowserUsingJenkinsURL_assertURLIsJenkins" class="com.selenium.common.tests.SeleniumBrowsersTest"/>
+      </group> <!-- se-browsers-ff -->
+      <group name="se-browsers-chrome">
+        <method signature="SeleniumBrowsersTest.testOpenChromeBrowserUsingJenkinsURL_assertURLIsJenkins()[pri:0, instance:com.selenium.common.tests.SeleniumBrowsersTest@7b49cea0]" name="testOpenChromeBrowserUsingJenkinsURL_assertURLIsJenkins" class="com.selenium.common.tests.SeleniumBrowsersTest"/>
+      </group> <!-- se-browsers-chrome -->
+      <group name="se-browsers-ie">
+        <method signature="SeleniumBrowsersTest.testOpenIEBrowserUsingJenkinsURL_assertURLIsJenkins()[pri:0, instance:com.selenium.common.tests.SeleniumBrowsersTest@7b49cea0]" name="testOpenIEBrowserUsingJenkinsURL_assertURLIsJenkins" class="com.selenium.common.tests.SeleniumBrowsersTest"/>
+      </group> <!-- se-browsers-ie -->
+      <group name="se-browsers">
+        <method signature="SeleniumBrowsersTest.testOpenChromeBrowserUsingJenkinsURL_assertURLIsJenkins()[pri:0, instance:com.selenium.common.tests.SeleniumBrowsersTest@7b49cea0]" name="testOpenChromeBrowserUsingJenkinsURL_assertURLIsJenkins" class="com.selenium.common.tests.SeleniumBrowsersTest"/>
+        <method signature="SeleniumBrowsersTest.testOpenFirefoxBrowserUsingJenkinsURL_assertURLIsJenkins()[pri:0, instance:com.selenium.common.tests.SeleniumBrowsersTest@7b49cea0]" name="testOpenFirefoxBrowserUsingJenkinsURL_assertURLIsJenkins" class="com.selenium.common.tests.SeleniumBrowsersTest"/>
+        <method signature="SeleniumBrowsersTest.testOpenIEBrowserUsingJenkinsURL_assertURLIsJenkins()[pri:0, instance:com.selenium.common.tests.SeleniumBrowsersTest@7b49cea0]" name="testOpenIEBrowserUsingJenkinsURL_assertURLIsJenkins" class="com.selenium.common.tests.SeleniumBrowsersTest"/>
+      </group> <!-- se-browsers -->
+    </groups>
+    <test name="SeBrowsersLaunchTest" duration-ms="36365" started-at="2019-08-06T21:14:19Z" finished-at="2019-08-06T21:14:55Z">
+      <class name="com.selenium.common.tests.SeleniumBrowsersTest">
+        <test-method status="PASS" signature="testOpenChromeBrowserUsingJenkinsURL_assertURLIsJenkins()[pri:0, instance:com.selenium.common.tests.SeleniumBrowsersTest@7b49cea0]" name="testOpenChromeBrowserUsingJenkinsURL_assertURLIsJenkins" duration-ms="5921" started-at="2019-08-06T21:14:19Z" finished-at="2019-08-06T21:14:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testOpenChromeBrowserUsingJenkinsURL_assertURLIsJenkins -->
+        <test-method status="PASS" signature="tearDown_global(org.testng.ITestResult)[pri:0, instance:com.selenium.common.tests.SeleniumBrowsersTest@7b49cea0]" name="tearDown_global" is-config="true" duration-ms="5365" started-at="2019-08-06T21:14:25Z" finished-at="2019-08-06T21:14:30Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testOpenChromeBrowserUsingJenkinsURL_assertURLIsJenkins status=SUCCESS method=SeleniumBrowsersTest.testOpenChromeBrowserUsingJenkinsURL_assertURLIsJenkins()[pri:0, instance:com.selenium.common.tests.SeleniumBrowsersTest@7b49cea0] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown_global -->
+        <test-method status="PASS" signature="testOpenFirefoxBrowserUsingJenkinsURL_assertURLIsJenkins()[pri:0, instance:com.selenium.common.tests.SeleniumBrowsersTest@7b49cea0]" name="testOpenFirefoxBrowserUsingJenkinsURL_assertURLIsJenkins" duration-ms="6383" started-at="2019-08-06T21:14:30Z" finished-at="2019-08-06T21:14:37Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testOpenFirefoxBrowserUsingJenkinsURL_assertURLIsJenkins -->
+        <test-method status="PASS" signature="tearDown_global(org.testng.ITestResult)[pri:0, instance:com.selenium.common.tests.SeleniumBrowsersTest@7b49cea0]" name="tearDown_global" is-config="true" duration-ms="2832" started-at="2019-08-06T21:14:37Z" finished-at="2019-08-06T21:14:40Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testOpenFirefoxBrowserUsingJenkinsURL_assertURLIsJenkins status=SUCCESS method=SeleniumBrowsersTest.testOpenFirefoxBrowserUsingJenkinsURL_assertURLIsJenkins()[pri:0, instance:com.selenium.common.tests.SeleniumBrowsersTest@7b49cea0] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown_global -->
+        <test-method status="PASS" signature="testOpenIEBrowserUsingJenkinsURL_assertURLIsJenkins()[pri:0, instance:com.selenium.common.tests.SeleniumBrowsersTest@7b49cea0]" name="testOpenIEBrowserUsingJenkinsURL_assertURLIsJenkins" duration-ms="13990" started-at="2019-08-06T21:14:40Z" finished-at="2019-08-06T21:14:54Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testOpenIEBrowserUsingJenkinsURL_assertURLIsJenkins -->
+        <test-method status="PASS" signature="tearDown_global(org.testng.ITestResult)[pri:0, instance:com.selenium.common.tests.SeleniumBrowsersTest@7b49cea0]" name="tearDown_global" is-config="true" duration-ms="1857" started-at="2019-08-06T21:14:54Z" finished-at="2019-08-06T21:14:55Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testOpenIEBrowserUsingJenkinsURL_assertURLIsJenkins status=SUCCESS method=SeleniumBrowsersTest.testOpenIEBrowserUsingJenkinsURL_assertURLIsJenkins()[pri:0, instance:com.selenium.common.tests.SeleniumBrowsersTest@7b49cea0] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown_global -->
+      </class> <!-- com.selenium.common.tests.SeleniumBrowsersTest -->
+    </test> <!-- SeBrowsersLaunchTest -->
+  </suite> <!-- SeBrowsersSuite -->
+</testng-results>

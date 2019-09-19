@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="SeBrowsersSuite" parallel="false">
+  <listeners>
+    <listener class-name="com.selenium.common.TestngReportingListner"/>
+  </listeners>
+  <test verbose="10" name="SeBrowsersLaunchTest">
+    <groups>
+      <run>
+        <include name="se-browsers"/>
+      </run>
+    </groups>
+    <classes>
+      <class name="com.selenium.common.tests.SeleniumBrowsersTest"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

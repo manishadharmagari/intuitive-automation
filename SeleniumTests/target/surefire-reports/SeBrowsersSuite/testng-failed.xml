@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" verbose="0" name="Failed suite [SeBrowsersSuite]">
+  <listeners>
+    <listener class-name="com.selenium.common.TestngReportingListner"/>
+  </listeners>
+  <test thread-count="5" verbose="0" name="SeBrowsersLaunchTest(failed)">
+    <groups>
+      <run>
+        <include name="se-browsers"/>
+      </run>
+    </groups>
+    <classes>
+      <class name="com.selenium.common.tests.SeleniumBrowsersTest">
+        <methods>
+          <include name="testOpenIEBrowserUsingJenkinsURL_assertURLIsJenkins"/>
+          <include name="tearDown_global"/>
+        </methods>
+      </class> <!-- com.selenium.common.tests.SeleniumBrowsersTest -->
+    </classes>
+  </test> <!-- SeBrowsersLaunchTest(failed) -->
+</suite> <!-- Failed suite [SeBrowsersSuite] -->
