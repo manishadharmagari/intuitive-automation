@@ -26,4 +26,19 @@ public class Helper {
 			throw e;
 		}
 	}
+	
+	/**
+	 * Stops the thread for a provided time
+	 * 
+	 * @param length
+	 *            integer for the length of time to stop. This is in
+	 *            milliseconds
+	 */
+	public static void pause(int length) {
+		try {
+			Thread.sleep(length);
+		} catch (InterruptedException e) {
+			e.printStackTrace();
+		}
+	}
 }

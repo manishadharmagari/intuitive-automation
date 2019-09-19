@@ -2,38 +2,46 @@
 <testng-results skipped="0" failed="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="12101" started-at="2019-09-19T18:16:38Z" finished-at="2019-09-19T18:16:51Z">
+  <suite name="Default suite" duration-ms="10990" started-at="2019-09-19T22:46:30Z" finished-at="2019-09-19T22:46:41Z">
     <groups>
       <group name="intutive-regression">
-        <method signature="TC_1.testTC1()[pri:0, instance:com.selenium.intuitive.regression.tests.TC_1@71be98f5]" name="testTC1" class="com.selenium.intuitive.regression.tests.TC_1"/>
+        <method signature="UseCase2.UseCase2_SelectSpecialty()[pri:0, instance:com.selenium.intuitive.regression.tests.UseCase2@71be98f5]" name="UseCase2_SelectSpecialty" class="com.selenium.intuitive.regression.tests.UseCase2"/>
       </group> <!-- intutive-regression -->
     </groups>
-    <test name="Default test" duration-ms="12101" started-at="2019-09-19T18:16:38Z" finished-at="2019-09-19T18:16:51Z">
-      <class name="com.selenium.intuitive.regression.tests.TC_1">
-        <test-method status="PASS" signature="setUp_global()[pri:0, instance:com.selenium.intuitive.regression.tests.TC_1@71be98f5]" name="setUp_global" is-config="true" duration-ms="11" started-at="2019-09-19T14:16:39Z" finished-at="2019-09-19T14:16:39Z">
+    <test name="Default test" duration-ms="10990" started-at="2019-09-19T22:46:30Z" finished-at="2019-09-19T22:46:41Z">
+      <class name="com.selenium.intuitive.regression.tests.UseCase2">
+        <test-method status="PASS" signature="setUp_global()[pri:0, instance:com.selenium.intuitive.regression.tests.UseCase2@71be98f5]" name="setUp_global" is-config="true" duration-ms="15" started-at="2019-09-19T18:46:30Z" finished-at="2019-09-19T18:46:30Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp_global -->
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.selenium.intuitive.regression.tests.TC_1@71be98f5]" name="setUp" is-config="true" duration-ms="4061" started-at="2019-09-19T14:16:39Z" finished-at="2019-09-19T14:16:43Z">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.selenium.intuitive.regression.tests.UseCase2@71be98f5]" name="setUp" is-config="true" duration-ms="5243" started-at="2019-09-19T18:46:30Z" finished-at="2019-09-19T18:46:36Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="testTC1()[pri:0, instance:com.selenium.intuitive.regression.tests.TC_1@71be98f5]" name="testTC1" duration-ms="5190" started-at="2019-09-19T14:16:43Z" finished-at="2019-09-19T14:16:48Z">
+        <test-method status="PASS" signature="UseCase2_SelectSpecialty()[pri:0, instance:com.selenium.intuitive.regression.tests.UseCase2@71be98f5]" name="UseCase2_SelectSpecialty" duration-ms="2722" started-at="2019-09-19T18:46:36Z" finished-at="2019-09-19T18:46:38Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- testTC1 -->
-        <test-method status="PASS" signature="tearDown_global(org.testng.ITestResult)[pri:0, instance:com.selenium.intuitive.regression.tests.TC_1@71be98f5]" name="tearDown_global" is-config="true" duration-ms="2822" started-at="2019-09-19T14:16:48Z" finished-at="2019-09-19T14:16:51Z">
+        </test-method> <!-- UseCase2_SelectSpecialty -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:com.selenium.intuitive.regression.tests.UseCase2@71be98f5]" name="afterMethod" is-config="true" duration-ms="1969" started-at="2019-09-19T18:46:38Z" finished-at="2019-09-19T18:46:40Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="tearDown_global()[pri:0, instance:com.selenium.intuitive.regression.tests.UseCase2@71be98f5]" name="tearDown_global" is-config="true" duration-ms="1015" started-at="2019-09-19T18:46:40Z" finished-at="2019-09-19T18:46:41Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown_global -->
+        <test-method status="PASS" signature="tearDown_global(org.testng.ITestResult)[pri:0, instance:com.selenium.intuitive.regression.tests.UseCase2@71be98f5]" name="tearDown_global" is-config="true" duration-ms="9" started-at="2019-09-19T18:46:41Z" finished-at="2019-09-19T18:46:41Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=testTC1 status=SUCCESS method=TC_1.testTC1()[pri:0, instance:com.selenium.intuitive.regression.tests.TC_1@71be98f5] output={null}]]]>
+                <![CDATA[[TestResult name=UseCase2_SelectSpecialty status=SUCCESS method=UseCase2.UseCase2_SelectSpecialty()[pri:0, instance:com.selenium.intuitive.regression.tests.UseCase2@71be98f5] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown_global -->
-      </class> <!-- com.selenium.intuitive.regression.tests.TC_1 -->
+      </class> <!-- com.selenium.intuitive.regression.tests.UseCase2 -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

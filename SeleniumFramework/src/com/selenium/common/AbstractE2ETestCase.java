@@ -1,11 +1,14 @@
 package com.selenium.common;
 
 import java.util.List;
+import org.testng.Assert;
+import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeMethod;
+import automationFramework.Helper;
 import automationFramework.SeleniumBrowsers;
 import automationFramework.utils.AssertionHelper;
 
-public class AbstractE2ETestCase extends AbstractVPTestCase {
+public class AbstractE2ETestCase extends AbstractSetUpTestCase {
 	public static enum Browser {
 		IE, FireFox, Chrome, Java
 	};
@@ -72,6 +75,50 @@ public class AbstractE2ETestCase extends AbstractVPTestCase {
 			this.driver = SeleniumBrowsers.openChromeBrowser(userInfo.get(0), chromeLocation, chromeBinLocation);
 		}
 		return userInfo;
+	}
+
+	/**
+	 * Runs after the test cases finishes. Finally closes the
+	 * browser and kills the driver.
+	 * 
+	 * Added 'alwaysRun=true' to force global teardown, even if
+	 * an exception is occurring earlier in the test
+	 * 
+	 * @param ITestResult
+	 *            TestNG Listener interface
+	 * @throws Exception
+	 *             if an exception occurs it will be thrown to the upper call
+	 */
+	@AfterMethod(alwaysRun = true)
+	public void tearDown_global() throws Exception {
+
+		try {
+			passed = AssertionHelper.assertValue(this.checkpoints);
+			passed = true;
+
+		} catch (Exception e) {
+		} finally {
+			Helper.pause(1000);
+			switch (sBrowser) {
+			case "FireFox":
+				SeleniumBrowsers.quitDriver();
+				break;
+			case "Chrome":
+				SeleniumBrowsers.quitDriver();
+				break;
+			case "IE":
+				SeleniumBrowsers.quitDriver();
+				break;
+			default:
+				SeleniumBrowsers.closeBrowser();
+				break;
+			}
+		}
+		
+		String verificationErrorString = verificationErrors.toString();
+		if (!"".equals(verificationErrorString)) {
+			Assert.fail(verificationErrorString);
+		}
 	}
 
 	public static boolean assertValue(String sMsg, boolean bValidationStatus) {

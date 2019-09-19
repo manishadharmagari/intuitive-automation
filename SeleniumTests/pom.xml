@@ -5,7 +5,7 @@
   <version>0.0.1-SNAPSHOT</version>
   
   <name>SeleniumTests</name>
-  <description>Intuitive QA teams' project for Selenium tests tests and suites.</description>
+  <description>Intuitive QA teams project for Selenium tests tests and suites.</description>
   
   <properties>
   	<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [IntutiveRegression]">
+  <test name="AllIntutiveRegression">
+    <groups>
+      <run>
+        <include name="intutive-regression"/>
+      </run>
+    </groups>
+    <packages>
+      <package name="com.selenium.intuitive.regression.tests"/>
+    </packages>
+    <classes>
+      <class name="com.selenium.intuitive.regression.tests.UseCase1"/>
+      <class name="com.selenium.intuitive.regression.tests.UseCase2"/>
+    </classes>
+  </test> <!-- AllIntutiveRegression -->
+</suite> <!-- Failed suite [IntutiveRegression] -->
