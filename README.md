@@ -12,4 +12,3 @@ TestCase Framework code location \SeleniumFramework\src<br>
 
 # TEST CASE - USECASES CODE 
 TestCase scenario code class -> \SeleniumTests\src\com\selenium\intuitive\regression\tests\TC_1.java<br>
-
